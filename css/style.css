@@ -1,0 +1,209 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Benne;
+    src: url(fonts/Benne-Regular.ttf);
+}
+.full-width {
+    width: 100%;
+}
+.body {
+    padding: 0 30px;
+    max-width: 1100px;
+    margin: auto;
+}
+.main-heading {
+    text-align: center;
+    font-family: Benne;
+}
+.main-heading .logo {
+    height: 70px;
+}
+.main-heading .logo a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.829);
+    font-size: 1.73em;
+    height: 100%;
+}
+.main-heading .dates {
+    color: rgba(0, 0, 0, 0.68);
+    font-size: 0.8em;
+}
+
+
+.navbar {
+    margin-top: 6px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    font-family: Benne;
+}
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 0.76em;
+    text-transform: uppercase;
+    padding: 5px 5px;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+}
+.navbar ul li:hover {
+    background-color: rgba(88, 86, 86, 0.11);
+}
+#red {
+    color: red;
+}
+
+
+.headline {
+    margin-bottom: 5px;
+    border-bottom: 1px solid rgba(53, 50, 50, 0.2);
+}
+.headline h1{
+    font-family: Benne;
+    font-size: 2.2em;
+    color: rgba(0, 0, 0, 0.829);
+}
+
+
+.writer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 9px;
+}
+.writer .part-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 0.78em;
+}
+.writer .part-1 .writer-name,
+.writer .part-1 .published,
+.writer .part-1 .update {
+    height: 17px;
+    padding: 0px 9px;
+}
+.writer .part-1 .writer-name,
+.writer .part-1 .published {
+    border-right: 1px solid rgba(53, 50, 50, 0.2);
+}
+
+
+
+.main-artical .picture img {
+    display: block;
+}
+.main-artical .picture figcaption {
+    display: block;
+    font-size: 1em;
+    margin-top: 5px;
+    font-family: Benne;
+    color: rgb(10, 7, 7);
+}
+.main-artical .artical {
+    padding: 0 180px;
+    font-family: Benne;
+    font-size: 1.29em;
+    margin-top: 10px;
+    line-height: 1.6em;
+    word-spacing: 0.2em;
+}
+.main-artical .artical p {
+    margin: 20px 0px;
+}
+.main-artical .artical .history {
+    font-weight: bold;
+}
+.main-artical .artical .history a{
+    color: rgb(150, 11, 11);
+}
+.main-artical .artical ul {
+    padding-left: 47px;
+    font-size: 1em;
+    margin-bottom: 30px;
+}
+.main-artical .artical .sub-heading {
+    color: rgba(0, 0, 0, 0.88);
+}
+.main-artical .artical .after-sub-heading {
+    margin-top: 0px;
+}
+
+.line-break {
+    height: 3px;
+    width: 100%;
+    background-color: black;
+}
+.input {
+    width: 70%;
+    margin: auto;
+    margin-top: 7px;
+    margin-bottom: 40px;
+}
+
+.input .number-of-comment {
+    font-family: Benne;
+    color: black;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+.input .name-email,
+.input .phone-city {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.input .name-email input,
+.input .phone-city input {
+    display: block;
+    width: 48%;
+    height: 30px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.input .text-area textarea {
+    width: 98%;
+    display: block;
+    margin: auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 4px;
+    resize: vertical;
+    height: 80px;
+}
+.input .name-email input:focus,
+.input .phone-city input:focus,
+.input .text-area textarea:focus {
+    box-shadow: 0px 0px 1px 4px rgba(38, 86, 231, 0.421);
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.35);
+    transition: 0.3s ease-in-out;
+}
+
+.input .submit {
+    display: flex;
+    justify-content: flex-end;
+    width: 98%;
+    margin-top: 9px;
+}
+.input .submit button {
+    display: block;
+    font-family: sans-serif;
+    font-size: 1em;
+    border: none;
+    outline: none;
+    background-color: royalblue;
+    color: whitesmoke;
+    padding: 6px 9px;
+}
